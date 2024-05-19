@@ -1,0 +1,131 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    padding: 2px;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navigation {
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 10px 20px;
+}
+
+.nav-left {
+    align-items: center;
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 12rem;
+}
+.nav-left ul {
+    gap: 3rem;
+  display: flex;
+}
+.nav-left ul > li {
+  list-style: none;
+  margin: 0 12px;
+}
+.nav-left ul > li > a {
+    font-weight: 100;
+    font-size: 23px;
+  text-decoration: none;
+  color: rgb(160, 3, 34);
+}
+.nav-left a:hover {
+    font-size: 25px;
+  font-weight: bold;
+  color: rgb(178, 2, 37);
+}
+.content {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.content-left {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 30px 45px;
+}
+.content-left h1 {
+  font-style: oblique;
+  font-weight: 200;
+}
+.content-right {
+  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-right img {
+  padding: 0%;
+  height: 16rem;
+  width: 16rem;
+}
+.home-articles {
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(210, 248, 246);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: solid 1px rgb(179, 230, 245);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.home-article-content h2 {
+  color: rgb(221, 118, 1);
+}
+.home-article-content {
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.home-articles h1 {
+  margin: 25px 0px;
+  color: rgb(14, 93, 239);
+}
+.home-article {
+  display: flex;
+  gap: 25px;
+}
+.home-article-img {
+  width: 30%;
+  padding: 12px 15px;
+}
+.home-article img {
+  border: solid 1px black;
+  border-radius: 25px;
+  height: 15rem;
+}
+.line {
+    margin-bottom: 15px;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.footer {
+  padding: 35px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(97, 97, 233);
+color: white;
+  height: 100%;
+}

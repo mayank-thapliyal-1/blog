@@ -1,0 +1,12 @@
+.blog-head{
+    padding-top: 5rem;
+    color: rgb(7, 7, 125);
+    text-transform: uppercase;
+    font-size: larger;
+    
+    
+}
+.blog-head h1{
+    border-bottom: solid 2px rgb(7, 7, 125);
+    width: 35rem;
+}
